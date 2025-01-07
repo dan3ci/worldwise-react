@@ -1,3 +1,3 @@
 export default function AppLayout() {
-  return <div></div>;
+  return <div>App</div>;
 }
