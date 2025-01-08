@@ -35,6 +35,42 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Faro",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 12121212
+    },
+    {
+      "cityName": "Barcelona",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 676767678
+    },
+    {
+      "cityName": "Dharan",
+      "country": "Nepal",
+      "emoji": "🇳🇵",
+      "date": "2022-08-21T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 26.793618,
+        "lng": 87.294852
+      },
+      "id": 676767678
     }
   ]
 }
