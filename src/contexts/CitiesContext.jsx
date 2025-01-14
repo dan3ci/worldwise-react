@@ -1,9 +1,10 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
 
 const BASE_URL = "http://localhost:8000";
 
 const CitiesContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -36,4 +37,11 @@ function CitiesProvider({ children }) {
   );
 }
 
-export { CitiesProvider };
+function useCities() {
+  const context = useContext(CitiesContext);
+  if (context === undefined)
+    throw new Error("CitiesContext was use outside of Cities Provider");
+  return context;
+}
+
+export { CitiesProvider, useCities };
